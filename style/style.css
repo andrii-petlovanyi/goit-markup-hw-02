@@ -31,11 +31,10 @@ body {
 ul {
     list-style: none;
 }
-
+ 
 /* Site navigation*/
 .site-nav .link {
     color: var(--primary-text-color);
-    font-family: inherit;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -48,9 +47,12 @@ ul {
     color: var(--accent-text-color);
 }
 
+.site-nav  .active {
+    color: var(--accent-text-color);
+}
+
 .contact-header .link {
     color: var(--other-text-color);
-    font-family: inherit;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -90,7 +92,6 @@ ul {
 }
 
 .main-title {
-    font-family: inherit;
     font-weight: 900; 
     font-size: 44px;
     line-height: 1.36;
@@ -105,7 +106,6 @@ ul {
 }
 
 .main-features .title-card {
-    font-family: inherit;
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -115,9 +115,8 @@ ul {
 }
 
 .main-features p {
-    font-family: inherit;
     font-size: 14px;
-    line-height: 1.7px;
+    line-height: 1.7;
     letter-spacing: 0.03em;
     color: var(--other-text-color);
 }
@@ -128,7 +127,6 @@ ul {
 .title-work,
 .title-team
  {
-    font-family: inherit;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -143,7 +141,6 @@ ul {
 }
 
 .main-team .title-card {
-    font-family: inherit;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -152,7 +149,6 @@ ul {
 }
 
 .main-team p {
-    font-family: inherit;
     font-size: 16px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -171,7 +167,6 @@ ul {
 .footer .link-adress {
     color: var(--second-text-color);
     text-decoration: none;
-    font-family: inherit;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -180,7 +175,6 @@ ul {
 }
 
 .footer .link {
-    font-family: inherit;
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
@@ -234,7 +228,6 @@ ul {
 /*------LIST PROJECTS-----*/
 
 .portfolio-list .title {
-    font-family: inherit;
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
@@ -243,7 +236,6 @@ ul {
 }
 
 .main-portfolio .category {
-    font-family: inherit;
     font-size: 16px;
     line-height: 1.88;
     letter-spacing: 0.03em;
